@@ -62,3 +62,24 @@
     color: #fff;
 }
 
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Sørger for at indholdet er centreret på hele siden */
+}
+
+.search-btn {
+    background-color: #3498db;    /* Baggrundsfarve */
+    border: 2px solid #e67e22;    /* Stroke/kantfarve og tykkelse */
+    color: white;
+    border-radius: 20px;          /* Corner radius */
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.search-btn:hover {
+    background-color: #217dbb;    /* Let mørkere på hover */
+}
