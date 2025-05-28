@@ -1,7 +1,64 @@
 .bg-image {
-    background-image: url('fotos/Baggrund.png'); /* Ret evt. filnavn */
+    background-image: url('../fotos/baggrund.png'); /* Ret evt. filnavn */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+#top-logo {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 100px; /* Juster størrelsen efter behov */
+}
+.custom-login-btn {
+    background-color: #B0B6BF;
+    color: #fff;
+    border: 2px solid #00B894;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-size: 20px;
+    transition: background 0.2s;
+}
+.custom-login-btn:hover {
+    background-color: #00B894;
+    border-color: #B0B6BF;
+    color: #fff;
+}
+.corner-top-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    z-index: 1050;
+}
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 1px 15px;
+    background: transparent; /* eller en farve hvis ønsket */
+    z-index: 1050;
+}
+
+.logo-img {
+    height: 100px;      /* Justér størrelse hvis nødvendigt */
+}
+
+.custom-login-btn {
+    background-color: #B0B6BF;
+    color: #fff;
+    border: 2px solid #00B894;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-size: 16px;
+    transition: background 0.2s;
+}
+
+.custom-login-btn:hover {
+    background-color: #00B894;
+    border-color: #B0B6BF;
+    color: #fff;
+}
+
