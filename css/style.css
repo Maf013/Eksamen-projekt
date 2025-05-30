@@ -69,17 +69,10 @@
     min-height: 100vh; /* Sørger for at indholdet er centreret på hele siden */
 }
 
-.search-btn {
-    background-color: #3498db;    /* Baggrundsfarve */
-    border: 2px solid #e67e22;    /* Stroke/kantfarve og tykkelse */
-    color: white;
-    border-radius: 20px;          /* Corner radius */
-    padding: 15px 40px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: 0.2s;
+.form-control{
+    background-color: #B0B6BF;
+    border: 2px solid #00b894; /* Skift #3A3A3A ud med den farve du ønsker til stroken */
+    border-radius: 20px;
+    padding: 8px 12px; /* Valgfrit, giver lidt luft i feltet */
 }
 
-.search-btn:hover {
-    background-color: #217dbb;    /* Let mørkere på hover */
-}
