@@ -1,4 +1,5 @@
 .bg-image {
+    background-image: url("fotos/baggrund.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,7 +78,20 @@
 }
 
 
+.logo-container {
+    position: relative;
+    /* Evt. anden styling */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.tilbageknap-container {
+    position: absolute;
+    top: 60px; /* Juster denne værdi afhængigt af logoets højde */
+    left: 1px;
+}
+
 .tilbageknap-img {
-    width: 125px; /* eller den ønskede størrelse */
-    height:auto;
+    width: 150px; /* Juster størrelsen efter behov */
+    cursor: pointer;
 }
