@@ -102,3 +102,20 @@
     width: 150px; /* Juster størrelsen efter behov */
     cursor: pointer;
 }
+
+.image-box {
+    width: 300px;        /* eller den ønskede bredde */
+    height: 200px;       /* eller den ønskede højde */
+    margin: 20px auto;   /* centrerer boksen og giver afstand */
+    border: 2px solid #00b894;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;    /* valgfri baggrundsfarve */
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
