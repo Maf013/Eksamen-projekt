@@ -76,3 +76,9 @@
     padding: 8px 12px; /* Valgfrit, giver lidt luft i feltet */
 }
 
+
+.same-size-img {
+    width: 100px; /* eller den størrelse du ønsker */
+    height: auto;
+    display: block;
+}
