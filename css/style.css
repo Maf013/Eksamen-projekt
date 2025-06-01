@@ -102,3 +102,33 @@
     width: 150px; /* Juster størrelsen efter behov */
     cursor: pointer;
 }
+
+.image-box {
+    width: 300px;        /* ønsket bredde */
+    height: 220px;       /* ønsket højde */
+    margin: 20px auto;   /* centrerer og giver afstand */
+    border: 2px solid #00b894;
+    display: flex;
+    flex-direction: column;      /* gør indholdet lodret */
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    position: relative;
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.image-btn {
+    padding: 10px 24px;
+    background-color: #00b894;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
