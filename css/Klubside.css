@@ -114,6 +114,7 @@
     background: #b0b6bf;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     border-radius: 12px;
+    padding-bottom: 16px;
 
 }
 
@@ -124,3 +125,15 @@
     margin-top: 1px;
 }
 
+
+.info-box {
+    background: #b0b6bf;             /* samme som .image-box, justér hvis du bruger en anden */
+    border: 2px solid #00b894;    /* samme som .image-box */
+    border-radius: 12px;          /* samme som .image-box */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* samme som .image-box */
+    width: 320px;                 /* samme som .image-box */
+    margin: 0 auto 16px auto;     /* centreret og lidt afstand nedenunder */
+    padding: 16px;                /* lidt luft omkring teksten */
+    color: #192A40;               /* vælg tekstfarve der passer */
+    text-align: center; /* centrer tekst */
+}
