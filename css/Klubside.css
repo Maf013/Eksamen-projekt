@@ -88,7 +88,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-start; /* eller 'center', hvis den skal være i midten */
-    margin-bottom: 8px;
+    margin-bottom: 1px;
 }
 
 .tilbageknap-container {
@@ -105,15 +105,16 @@
 .image-box {
     width: 320px;
     height: 200px;
-    margin: 10px auto;
+    margin-top: 1px;
     border: 2px solid #00b894;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: #b0b6bf;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     border-radius: 12px;
+
 }
 
 .image-box img {
@@ -123,6 +124,3 @@
     margin-top: 1px;
 }
 
-.image-box-container {
-    margin-top: 100px; /* eller mere, hvis nødvendigt */
-}
