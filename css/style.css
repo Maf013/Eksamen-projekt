@@ -146,3 +146,12 @@
 .image-box-container {
     margin-top: 100px; /* eller mere, hvis nødvendigt */
 }
+
+.hjornet-billede {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100px;      /* justér størrelse efter behov */
+    height: auto;
+    z-index: 200;     /* hvis det skal ligge over andet indhold */
+}
