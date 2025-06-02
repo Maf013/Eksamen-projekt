@@ -91,6 +91,12 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+.tilbageknap-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* eller 'center', hvis den skal være i midten */
+    margin-bottom: 16px;
+}
 
 .tilbageknap-container {
     position: absolute;
@@ -136,4 +142,7 @@
 }
 .image-btn:hover {
     background-color: #009f71;
+}
+.image-box-container {
+    margin-top: 100px; /* eller mere, hvis nødvendigt */
 }
