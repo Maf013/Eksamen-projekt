@@ -72,46 +72,58 @@
 }
 
 
-.profile-text-box {
-    background: #fff;
-    border: 2px solid #00b894;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    color: #192A40;
-}
-
-
 .profile-container {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
 }
 
 .profile-image {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
 }
 
 .profile-textbox {
     flex: 1;
+    font-size: 15px;
+    background: #B0B6BF;
+    border-radius: 20px;
+    border: 2px solid #00b894; /* Blå stroke, skift farve efter behov */
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* Let skygge, valgfri */
 }
 
 @media (max-width: 600px) {
     .profile-container {
-        flex-direction: row;
-        align-items: center;
         max-width: 95vw;
+        gap:2px;
     }
     .profile-image {
-        width: 56px;
-        height: 56px;
+        width: 200px;
+        height: 200px;
     }
     .profile-textbox {
-        font-size: 1rem;
+        padding: 12px;
     }
+}
+
+
+
+.image-btn {
+    padding: 10px 24px;
+    background-color: #00b894;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.image-btn:hover {
+    background-color: #009f71;
 }
