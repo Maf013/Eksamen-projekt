@@ -247,9 +247,10 @@
         }
     }
 
-
 .deltag-knapper {
     margin-top: 20px;
     display: flex;
     gap: 10px; /* Lidt luft mellem knapperne */
+    justify-content: center; /* Centrer knapperne under boksen */
+    width: 100%;
 }
