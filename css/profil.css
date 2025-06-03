@@ -79,3 +79,39 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     color: #192A40;
 }
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-textbox {
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .profile-container {
+        flex-direction: row;
+        align-items: center;
+        max-width: 95vw;
+    }
+    .profile-image {
+        width: 56px;
+        height: 56px;
+    }
+    .profile-textbox {
+        font-size: 1rem;
+    }
+}
