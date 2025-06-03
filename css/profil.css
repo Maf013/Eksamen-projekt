@@ -246,3 +246,10 @@
             max-width: 95vw;
         }
     }
+
+
+.deltag-knapper {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px; /* Lidt luft mellem knapperne */
+}
