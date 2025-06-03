@@ -1,0 +1,81 @@
+#top-logo {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 100px; /* Juster størrelsen efter behov */
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 1px 15px;
+    background: transparent; /* eller en farve hvis ønsket */
+    z-index: 1050;
+}
+
+.logo-img {
+    height: 100px;      /* Justér størrelse hvis nødvendigt */
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Sørger for at indholdet er centreret på hele siden */
+}
+.baggrund{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color:#192A40;
+}
+
+.logo-container {
+    position: relative;
+    /* Evt. anden styling */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.tilbageknap-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* eller 'center', hvis den skal være i midten */
+    margin-bottom: 1px;
+}
+
+.tilbageknap-container {
+    position: absolute;
+    top: 60px; /* Juster denne værdi afhængigt af logoets højde */
+    left: 1px;
+}
+
+.tilbageknap-img {
+    width: 150px; /* Juster størrelsen efter behov */
+    cursor: pointer;
+}
+
+.hjornet-billede {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 80px;      /* justér størrelse efter behov */
+    height: auto;
+    z-index: 200;     /* hvis det skal ligge over andet indhold */
+}
+
+
+.profil{
+
+}
+
+
+.profile-text-box {
+    background: #fff;
+    border: 2px solid #00b894;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    color: #192A40;
+}

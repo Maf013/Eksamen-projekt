@@ -115,6 +115,7 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     border-radius: 12px;
     padding-bottom: 16px;
+    margin-bottom: 24px; /* eller den afstand du ønsker */
 
 }
 
@@ -123,6 +124,7 @@
     max-height: 500px;
     object-fit: contain;
     margin-top: 1px;
+
 }
 
 
@@ -135,5 +137,16 @@
     margin: 0 auto 16px auto;     /* centreret og lidt afstand nedenunder */
     padding: 16px;                /* lidt luft omkring teksten */
     color: #192A40;               /* vælg tekstfarve der passer */
-    text-align: center; /* centrer tekst */
+    text-align: left; /* centrer tekst */
+}
+
+.image-btn {
+    padding: 10px 24px;
+    background-color: #00b894;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
 }
